@@ -1,0 +1,137 @@
+
+DISTANCIA_AVULSA DISTANCIA_PACOTE
+---------------- ----------------
+           9,333            9,333
+
+
+RISCO_AVULSA
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RISCO_PACOTE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CRITICO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+CRITICO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+
+
+A. Funções e procedimentos avulsos (requisito 02)
+=================================================
+[OK] A01 FN_DISTANCIA_KM Linha Faxinal até Dalla Costa = 9,333 km (veio 9,333)
+[OK] A02 FN_DISTANCIA_KM do ponto para ele mesmo = 0 km (veio 0)
+[OK] A03 FN_DISTANCIA_KM recusa latitude -95 -> ORA-20010: Coordenadas inválidas: latitude deve estar entre -90 e 90 e longitude entre -180 e 180, todas preenchidas.
+[OK] A04 FN_NIVEL_RISCO severidade 4 com 3 ativas no município = CRITICO (veio CRITICO)
+[OK] A05 FN_NIVEL_RISCO severidade 3 com 1 ativa no município = MEDIO (veio MEDIO)
+[OK] A06 FN_NIVEL_RISCO severidade 1 = BAIXO (veio BAIXO)
+[OK] A07 FN_NIVEL_RISCO ignora maiúsculas no município e na UF = ALTO (veio ALTO)
+[OK] A08 FN_NIVEL_RISCO recusa severidade 7 -> ORA-20020: Severidade inválida: o valor deve ser inteiro de 1 a 5.
+[OK] A09 FN_NIVEL_RISCO exige município -> ORA-20021: Município e UF são obrigatórios para calcular o risco.
+Ocorrência 1001 registrada com status RECEBIDA.
+[OK] A10 PRC_REGISTRAR_OCORRENCIA criou a ocorrência 1001 como RECEBIDA e cultura MILHO
+Requisição repetida: devolvida a ocorrência 1001, sem nova gravação.
+[OK] A11 PRC_REGISTRAR_OCORRENCIA com a mesma chave devolve a mesma ocorrência sem duplicar
+[OK] A12 chave reutilizada com outro conteúdo -> ORA-20036: Chave de idempotência já usada com outro conteúdo.
+[OK] A13 propriedade de outro produtor -> ORA-20032: Propriedade 11 não encontrada para o produtor 2.
+[OK] A14 cultura não cultivada na propriedade -> ORA-20033: A cultura TOMATE não é cultivada na propriedade 14.
+[OK] A15 usuário que não é produtor -> ORA-20031: Somente produtores registram ocorrências. Papel do usuário: AGRONOMO.
+[OK] A16 usuário inexistente -> ORA-20030: Usuário 999 não encontrado.
+[OK] A17 descrição com menos de 10 caracteres -> ORA-20034: A descrição deve ter de 10 a 1000 caracteres.
+[OK] A18 chave fora do formato UUID -> ORA-20035: Chave de idempotência obrigatória, no formato UUID.
+Ocorrência 107 (TOMATE, TRIADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, alerta SUSPEITA criado
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 1
+[OK] A19 PRC_EMITIR_ALERTAS_RAIO na 107 criou 1 alerta SUSPEITA de 5 km para o Sítio Rech
+Ocorrência 107 (TOMATE, TRIADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, já tinha alerta
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 0
+[OK] A20 PRC_EMITIR_ALERTAS_RAIO executado de novo não repete alerta (veio 0)
+Ocorrência 1001 (MILHO, TRIADA), raio de 11 km:
+  Propriedade 11 Sítio Linha Faxinal: 17,7 km, fora do raio
+  Propriedade 12 Sítio Dalla Costa: 25,9 km, fora do raio
+  Propriedade 13 Chácara Bertuol: 11,1 km, fora do raio
+  Propriedade 15 Sítio Fantin: 150,4 km, fora do raio
+  Propriedade 17 Chácara Rio do Peixe: 148,6 km, fora do raio
+Alertas criados: 0
+[OK] A21 raio de 11 km não alcança a Chácara Bertuol a 11,109 km (veio 0)
+Ocorrência 1001 (MILHO, TRIADA), raio de 11,109 km:
+  Propriedade 11 Sítio Linha Faxinal: 17,7 km, fora do raio
+  Propriedade 12 Sítio Dalla Costa: 25,9 km, fora do raio
+  Propriedade 13 Chácara Bertuol: 11,1 km, alerta SUSPEITA criado
+  Propriedade 15 Sítio Fantin: 150,4 km, fora do raio
+  Propriedade 17 Chácara Rio do Peixe: 148,6 km, fora do raio
+Alertas criados: 1
+[OK] A22 raio de 11,109 km alcança a Chácara Bertuol: limite inclusivo (veio 1)
+[OK] A23 ocorrência descartada não emite alerta -> ORA-20041: Alertas só são emitidos para ocorrências triadas, em análise ou confirmadas. Status atual: DESCARTADA.
+[OK] A24 raio zero -> ORA-20042: O raio deve ser maior que zero.
+[OK] A25 ocorrência inexistente -> ORA-20040: Ocorrência 9999 não encontrada.
+ 
+B. Pacotes PKG_ALERTA e PKG_OCORRENCIA (requisito 04)
+=====================================================
+[OK] B01 PKG_ALERTA.FN_DISTANCIA_KM Sítio Fantin até Sítio Rech = 5,353 km (veio 5,353)
+[OK] B02 PKG_ALERTA.FN_DISTANCIA_KM dá o mesmo resultado da função avulsa = 7,586 km (veio 7,586)
+[OK] B03 PKG_OCORRENCIA.FN_NIVEL_RISCO severidade 5 = CRITICO (veio CRITICO)
+Ocorrência 1002 registrada com status RECEBIDA.
+[OK] B04 PKG_OCORRENCIA.PRC_REGISTRAR_OCORRENCIA criou a ocorrência 1002 como RECEBIDA
+[OK] B05 triagem sem severidade -> ORA-20053: A triagem precisa informar a severidade, de 1 a 5.
+Ocorrência 107: RECEBIDA -> TRIADA
+Ocorrência 107 (TOMATE, TRIADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, alerta SUSPEITA criado
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 1
+[OK] B06 PRC_ATUALIZAR_STATUS 107 RECEBIDA -> TRIADA grava severidade 2 e emite 1 alerta SUSPEITA
+Ocorrência 107: TRIADA -> EM_ANALISE
+[OK] B07 PRC_ATUALIZAR_STATUS 107 TRIADA -> EM_ANALISE
+Ocorrência 107: EM_ANALISE -> CONFIRMADA
+Alertas da ocorrência 107 alterados para CONFIRMADO: 1
+Ocorrência 107 (TOMATE, CONFIRMADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, já tinha alerta
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 0
+[OK] B08 PRC_ATUALIZAR_STATUS 107 EM_ANALISE -> CONFIRMADA muda o alerta para CONFIRMADO e não lido
+Ocorrência 107 (TOMATE, CONFIRMADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, já tinha alerta
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 0
+[OK] B09 PKG_ALERTA.PRC_EMITIR_ALERTAS_RAIO com o raio padrão do pacote não repete alerta (veio 0)
+Ocorrência 112: TRIADA -> EM_ANALISE
+Ocorrência 112: EM_ANALISE -> DESCARTADA
+Alertas da ocorrência 112 alterados para ENCERRADO: 2
+[OK] B10 PRC_ATUALIZAR_STATUS 112 até DESCARTADA encerra os 2 alertas da ocorrência
+[OK] B11 TRIADA -> DESCARTADA tratada pela exceção nomeada PKG_OCORRENCIA.E_TRANSICAO_INVALIDA -> ORA-20052: Transição de TRIADA para DESCARTADA não permitida.
+[OK] B12 CONFIRMADA não volta para RECEBIDA -> ORA-20052: Transição de CONFIRMADA para RECEBIDA não permitida.
+[OK] B13 status fora do domínio -> ORA-20051: Status inválido: APROVADA.
+[OK] B14 ocorrência inexistente -> ORA-20050: Ocorrência 9999 não encontrada.
+[OK] B15 ocorrência descartada tratada pela exceção nomeada PKG_ALERTA.E_STATUS_SEM_ALERTA -> ORA-20041: Alertas só são emitidos para ocorrências triadas, em análise ou confirmadas. Status atual: DESCARTADA.
+[OK] B16 nível de alerta fora do domínio -> ORA-20043: Nível de alerta inválido: use SUSPEITA, CONFIRMADO ou ENCERRADO.
+ 
+C. Gatilhos e trilha de auditoria (requisito 03)
+================================================
+[OK] C01 TRG_VALIDA_SEVERIDADE recusa severidade 6 -> ORA-20001: Severidade inválida: 6. O valor deve estar entre 1 e 5.
+ORA-06512: em "RM562396.TRG_VALIDA_SEVERIDADE", line 3
+ORA-04088: erro durante a ex
+[OK] C02 TRG_VALIDA_SEVERIDADE recusa severidade em ocorrência RECEBIDA -> ORA-20002: Ocorrência RECEBIDA não tem severidade. A severidade é definida na triagem.
+ORA-06512: em "RM562396.TRG_VALIDA_SEVERIDADE", line 8
+ORA-0408
+[OK] C03 TRG_AUDIT_OCORRENCIA gravou 1 linha a mais no UPDATE de severidade (2 -> 3)
+[OK] C04 auditoria do UPDATE: operação UPDATE, severidade 3 -> 5, status TRIADA, usuário RM562396 e data 09/11/2026 20:36:12
+Ocorrência 1003 registrada com status RECEBIDA.
+[OK] C05 auditoria do INSERT da ocorrência 1003: status anterior vazio e novo RECEBIDA
+[OK] C06 auditoria do DELETE: status anterior RECEBIDA, novo vazio, e a trilha continua após a exclusão
+[OK] C07 alterar só a descrição não gera auditoria (UPDATE OF STATUS, SEVERIDADE)
+ 
+Resumo
+======
+Testes aprovados: 48
+Testes com falha: 0
+Cada grupo termina com ROLLBACK: a base continua igual à carga do 03_dados.sql.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+TABELA                    TOTAL
+-------------------- ----------
+OCORRENCIA                   12
+ALERTA                       12
+AUDITORIA_OCORRENCIA         36
+
