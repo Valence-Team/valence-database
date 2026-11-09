@@ -1,0 +1,24 @@
+# Ferramentas locais
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.mcp.json
+AGENTS.md
+contexto/
+
+# Material de aula
+material-aula/
+
+# Ambiente
+.env
+.env.local
+*.env
+!.env.example
+
+# Entrega
+*.zip
+
+# Sistema e editor
+.DS_Store
+Thumbs.db
+.vscode/
