@@ -1,0 +1,742 @@
+Tabela removida: ALERTA
+Tabela removida: AUDITORIA_OCORRENCIA
+Tabela removida: LAUDO
+Tabela removida: OCORRENCIA
+Tabela removida: POST_MURAL
+Tabela removida: PROPRIEDADE
+Tabela removida: PROPRIEDADE_CULTURA
+Tabela removida: TRIAGEM
+Tabela removida: USUARIO
+Sequência removida: SEQ_VALENCE_ALERTA
+Sequência removida: SEQ_VALENCE_AUDITORIA
+Sequência removida: SEQ_VALENCE_OCORRENCIA
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Table USUARIO criado.
+
+
+Table PROPRIEDADE criado.
+
+
+Table PROPRIEDADE_CULTURA criado.
+
+
+Table OCORRENCIA criado.
+
+
+Table TRIAGEM criado.
+
+
+Table ALERTA criado.
+
+
+Table LAUDO criado.
+
+
+Table POST_MURAL criado.
+
+
+Table AUDITORIA_OCORRENCIA criado.
+
+
+Sequence SEQ_VALENCE_OCORRENCIA criado.
+
+
+Sequence SEQ_VALENCE_ALERTA criado.
+
+
+Sequence SEQ_VALENCE_AUDITORIA criado.
+
+
+Index IX_PROPRIEDADE_USUARIO criado.
+
+
+Index IX_PROPRIEDADE_MUNICIPIO criado.
+
+
+Index IX_OCORRENCIA_PROPRIEDADE criado.
+
+
+Index IX_OCORRENCIA_STATUS criado.
+
+
+Index IX_ALERTA_PROPRIEDADE criado.
+
+
+Index IX_LAUDO_OCORRENCIA criado.
+
+
+Index IX_AUDITORIA_OCORRENCIA criado.
+
+
+Trigger TRG_VALIDA_SEVERIDADE compilado
+
+
+Trigger TRG_AUDIT_OCORRENCIA compilado
+
+
+OBJECT_NAME                                                                                                                      OBJECT_TYPE             STATUS 
+-------------------------------------------------------------------------------------------------------------------------------- ----------------------- -------
+TRG_AUDIT_OCORRENCIA                                                                                                             TRIGGER                 VALID  
+TRG_VALIDA_SEVERIDADE                                                                                                            TRIGGER                 VALID  
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+0 linhas excluído.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha atualizado.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+
+1 linha inserido.
+
+Commit concluído.
+
+TABELA                    TOTAL
+-------------------- ----------
+USUARIO                      10
+PROPRIEDADE                  10
+PROPRIEDADE_CULTURA          12
+OCORRENCIA                   12
+TRIAGEM                      11
+LAUDO                         7
+ALERTA                       12
+POST_MURAL                    4
+AUDITORIA_OCORRENCIA         36
+
+9 linhas selecionadas. 
+
+OCORRÊNCIAS POR MUNICÍPIO
+=========================
+ 
+Caçador/SC
+  Ocorrência 105 | TOMATE | CONFIRMADA | severidade 5 | 15/09/2026
+  Ocorrência 106 | TOMATE | EM_ANALISE | severidade 3 | 02/10/2026
+  Ocorrência 107 | TOMATE | RECEBIDA | severidade - | 03/11/2026
+  Subtotal: 3 ocorrência(s), 1 confirmada(s)
+ 
+Chapecó/SC
+  Ocorrência 101 | MILHO | CONFIRMADA | severidade 4 | 08/09/2026
+  Ocorrência 112 | MILHO | TRIADA | severidade 4 | 29/09/2026
+  Ocorrência 104 | MILHO | DESCARTADA | severidade 2 | 20/10/2026
+  Subtotal: 3 ocorrência(s), 1 confirmada(s)
+ 
+Cordilheira Alta/SC
+  Ocorrência 103 | MILHO | TRIADA | severidade 3 | 06/10/2026
+  Subtotal: 1 ocorrência(s), 0 confirmada(s)
+ 
+Guatambu/SC
+  Ocorrência 102 | MILHO | CONFIRMADA | severidade 3 | 22/09/2026
+  Subtotal: 1 ocorrência(s), 1 confirmada(s)
+ 
+São João da Boa Vista/SP
+  Ocorrência 110 | BATATA | EM_ANALISE | severidade - | 28/10/2026
+  Subtotal: 1 ocorrência(s), 0 confirmada(s)
+ 
+Vargem Grande do Sul/SP
+  Ocorrência 108 | BATATA | CONFIRMADA | severidade 4 | 10/09/2026
+  Ocorrência 109 | BATATA | CONFIRMADA | severidade 3 | 12/10/2026
+  Ocorrência 111 | TOMATE | TRIADA | severidade 4 | 04/11/2026
+  Subtotal: 3 ocorrência(s), 2 confirmada(s)
+ 
+Total: 12 ocorrência(s) em 6 município(s)
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+RISCO DAS PROPRIEDADES PELOS ALERTAS RECEBIDOS
+==============================================
+11 Sítio Linha Faxinal (Chapecó/SC) | alertas ativos: 2 | risco MEDIO
+12 Sítio Dalla Costa (Guatambu/SC) | alertas ativos: 2 | risco ALTO
+13 Chácara Bertuol (Cordilheira Alta/SC) | alertas ativos: 2 | risco ALTO
+14 Sítio Serra Alta (Xaxim/SC) | alertas ativos: 0 | risco BAIXO
+15 Sítio Fantin (Caçador/SC) | alertas ativos: 1 | risco MEDIO
+16 Sítio Rech (Caçador/SC) | alertas ativos: 1 | risco ALTO
+17 Chácara Rio do Peixe (Caçador/SC) | alertas ativos: 0 | risco BAIXO
+18 Fazenda Mantovani (Vargem Grande do Sul/SP) | alertas ativos: 1 | risco MEDIO
+19 Sítio Prado (Vargem Grande do Sul/SP) | alertas ativos: 1 | risco ALTO
+20 Sítio Boa Vista (São João da Boa Vista/SP) | alertas ativos: 0 | risco BAIXO
+ 
+Resumo: 4 ALTO, 3 MEDIO, 3 BAIXO
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+Function FN_DISTANCIA_KM compilado
+
+
+Function FN_NIVEL_RISCO compilado
+
+
+Procedure PRC_REGISTRAR_OCORRENCIA compilado
+
+
+Procedure PRC_EMITIR_ALERTAS_RAIO compilado
+
+
+OBJECT_NAME                                                                                                                      OBJECT_TYPE             STATUS 
+-------------------------------------------------------------------------------------------------------------------------------- ----------------------- -------
+FN_DISTANCIA_KM                                                                                                                  FUNCTION                VALID  
+FN_NIVEL_RISCO                                                                                                                   FUNCTION                VALID  
+PRC_EMITIR_ALERTAS_RAIO                                                                                                          PROCEDURE               VALID  
+PRC_REGISTRAR_OCORRENCIA                                                                                                         PROCEDURE               VALID  
+
+
+Package PKG_ALERTA compilado
+
+
+Package Body PKG_ALERTA compilado
+
+
+Package PKG_OCORRENCIA compilado
+
+
+Package Body PKG_OCORRENCIA compilado
+
+
+OBJECT_NAME                                                                                                                      OBJECT_TYPE             STATUS 
+-------------------------------------------------------------------------------------------------------------------------------- ----------------------- -------
+PKG_ALERTA                                                                                                                       PACKAGE                 VALID  
+PKG_ALERTA                                                                                                                       PACKAGE BODY            VALID  
+PKG_OCORRENCIA                                                                                                                   PACKAGE                 VALID  
+PKG_OCORRENCIA                                                                                                                   PACKAGE BODY            VALID  
+
+
+DISTANCIA_AVULSA DISTANCIA_PACOTE
+---------------- ----------------
+           9,333            9,333
+
+
+RISCO_AVULSA
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RISCO_PACOTE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CRITICO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+CRITICO                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+
+
+A. Funções e procedimentos avulsos (requisito 02)
+=================================================
+[OK] A01 FN_DISTANCIA_KM Linha Faxinal até Dalla Costa = 9,333 km (veio 9,333)
+[OK] A02 FN_DISTANCIA_KM do ponto para ele mesmo = 0 km (veio 0)
+[OK] A03 FN_DISTANCIA_KM recusa latitude -95 -> ORA-20010: Coordenadas inválidas: latitude deve estar entre -90 e 90 e longitude entre -180 e 180, todas preenchidas.
+[OK] A04 FN_NIVEL_RISCO severidade 4 com 3 ativas no município = CRITICO (veio CRITICO)
+[OK] A05 FN_NIVEL_RISCO severidade 3 com 1 ativa no município = MEDIO (veio MEDIO)
+[OK] A06 FN_NIVEL_RISCO severidade 1 = BAIXO (veio BAIXO)
+[OK] A07 FN_NIVEL_RISCO ignora maiúsculas no município e na UF = ALTO (veio ALTO)
+[OK] A08 FN_NIVEL_RISCO recusa severidade 7 -> ORA-20020: Severidade inválida: o valor deve ser inteiro de 1 a 5.
+[OK] A09 FN_NIVEL_RISCO exige município -> ORA-20021: Município e UF são obrigatórios para calcular o risco.
+Ocorrência 1001 registrada com status RECEBIDA.
+[OK] A10 PRC_REGISTRAR_OCORRENCIA criou a ocorrência 1001 como RECEBIDA e cultura MILHO
+Requisição repetida: devolvida a ocorrência 1001, sem nova gravação.
+[OK] A11 PRC_REGISTRAR_OCORRENCIA com a mesma chave devolve a mesma ocorrência sem duplicar
+[OK] A12 chave reutilizada com outro conteúdo -> ORA-20036: Chave de idempotência já usada com outro conteúdo.
+[OK] A13 propriedade de outro produtor -> ORA-20032: Propriedade 11 não encontrada para o produtor 2.
+[OK] A14 cultura não cultivada na propriedade -> ORA-20033: A cultura TOMATE não é cultivada na propriedade 14.
+[OK] A15 usuário que não é produtor -> ORA-20031: Somente produtores registram ocorrências. Papel do usuário: AGRONOMO.
+[OK] A16 usuário inexistente -> ORA-20030: Usuário 999 não encontrado.
+[OK] A17 descrição com menos de 10 caracteres -> ORA-20034: A descrição deve ter de 10 a 1000 caracteres.
+[OK] A18 chave fora do formato UUID -> ORA-20035: Chave de idempotência obrigatória, no formato UUID.
+Ocorrência 107 (TOMATE, TRIADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, alerta SUSPEITA criado
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 1
+[OK] A19 PRC_EMITIR_ALERTAS_RAIO na 107 criou 1 alerta SUSPEITA de 5 km para o Sítio Rech
+Ocorrência 107 (TOMATE, TRIADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, já tinha alerta
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 0
+[OK] A20 PRC_EMITIR_ALERTAS_RAIO executado de novo não repete alerta (veio 0)
+Ocorrência 1001 (MILHO, TRIADA), raio de 11 km:
+  Propriedade 11 Sítio Linha Faxinal: 17,7 km, fora do raio
+  Propriedade 12 Sítio Dalla Costa: 25,9 km, fora do raio
+  Propriedade 13 Chácara Bertuol: 11,1 km, fora do raio
+  Propriedade 15 Sítio Fantin: 150,4 km, fora do raio
+  Propriedade 17 Chácara Rio do Peixe: 148,6 km, fora do raio
+Alertas criados: 0
+[OK] A21 raio de 11 km não alcança a Chácara Bertuol a 11,109 km (veio 0)
+Ocorrência 1001 (MILHO, TRIADA), raio de 11,109 km:
+  Propriedade 11 Sítio Linha Faxinal: 17,7 km, fora do raio
+  Propriedade 12 Sítio Dalla Costa: 25,9 km, fora do raio
+  Propriedade 13 Chácara Bertuol: 11,1 km, alerta SUSPEITA criado
+  Propriedade 15 Sítio Fantin: 150,4 km, fora do raio
+  Propriedade 17 Chácara Rio do Peixe: 148,6 km, fora do raio
+Alertas criados: 1
+[OK] A22 raio de 11,109 km alcança a Chácara Bertuol: limite inclusivo (veio 1)
+[OK] A23 ocorrência descartada não emite alerta -> ORA-20041: Alertas só são emitidos para ocorrências triadas, em análise ou confirmadas. Status atual: DESCARTADA.
+[OK] A24 raio zero -> ORA-20042: O raio deve ser maior que zero.
+[OK] A25 ocorrência inexistente -> ORA-20040: Ocorrência 9999 não encontrada.
+ 
+B. Pacotes PKG_ALERTA e PKG_OCORRENCIA (requisito 04)
+=====================================================
+[OK] B01 PKG_ALERTA.FN_DISTANCIA_KM Sítio Fantin até Sítio Rech = 5,353 km (veio 5,353)
+[OK] B02 PKG_ALERTA.FN_DISTANCIA_KM dá o mesmo resultado da função avulsa = 7,586 km (veio 7,586)
+[OK] B03 PKG_OCORRENCIA.FN_NIVEL_RISCO severidade 5 = CRITICO (veio CRITICO)
+Ocorrência 1002 registrada com status RECEBIDA.
+[OK] B04 PKG_OCORRENCIA.PRC_REGISTRAR_OCORRENCIA criou a ocorrência 1002 como RECEBIDA
+[OK] B05 triagem sem severidade -> ORA-20053: A triagem precisa informar a severidade, de 1 a 5.
+Ocorrência 107: RECEBIDA -> TRIADA
+Ocorrência 107 (TOMATE, TRIADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, alerta SUSPEITA criado
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 1
+[OK] B06 PRC_ATUALIZAR_STATUS 107 RECEBIDA -> TRIADA grava severidade 2 e emite 1 alerta SUSPEITA
+Ocorrência 107: TRIADA -> EM_ANALISE
+[OK] B07 PRC_ATUALIZAR_STATUS 107 TRIADA -> EM_ANALISE
+Ocorrência 107: EM_ANALISE -> CONFIRMADA
+Alertas da ocorrência 107 alterados para CONFIRMADO: 1
+Ocorrência 107 (TOMATE, CONFIRMADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, já tinha alerta
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 0
+[OK] B08 PRC_ATUALIZAR_STATUS 107 EM_ANALISE -> CONFIRMADA muda o alerta para CONFIRMADO e não lido
+Ocorrência 107 (TOMATE, CONFIRMADA), raio de 10 km:
+  Propriedade 16 Sítio Rech: 5,4 km, já tinha alerta
+  Propriedade 19 Sítio Prado: 684,2 km, fora do raio
+Alertas criados: 0
+[OK] B09 PKG_ALERTA.PRC_EMITIR_ALERTAS_RAIO com o raio padrão do pacote não repete alerta (veio 0)
+Ocorrência 112: TRIADA -> EM_ANALISE
+Ocorrência 112: EM_ANALISE -> DESCARTADA
+Alertas da ocorrência 112 alterados para ENCERRADO: 2
+[OK] B10 PRC_ATUALIZAR_STATUS 112 até DESCARTADA encerra os 2 alertas da ocorrência
+[OK] B11 TRIADA -> DESCARTADA tratada pela exceção nomeada PKG_OCORRENCIA.E_TRANSICAO_INVALIDA -> ORA-20052: Transição de TRIADA para DESCARTADA não permitida.
+[OK] B12 CONFIRMADA não volta para RECEBIDA -> ORA-20052: Transição de CONFIRMADA para RECEBIDA não permitida.
+[OK] B13 status fora do domínio -> ORA-20051: Status inválido: APROVADA.
+[OK] B14 ocorrência inexistente -> ORA-20050: Ocorrência 9999 não encontrada.
+[OK] B15 ocorrência descartada tratada pela exceção nomeada PKG_ALERTA.E_STATUS_SEM_ALERTA -> ORA-20041: Alertas só são emitidos para ocorrências triadas, em análise ou confirmadas. Status atual: DESCARTADA.
+[OK] B16 nível de alerta fora do domínio -> ORA-20043: Nível de alerta inválido: use SUSPEITA, CONFIRMADO ou ENCERRADO.
+ 
+C. Gatilhos e trilha de auditoria (requisito 03)
+================================================
+[OK] C01 TRG_VALIDA_SEVERIDADE recusa severidade 6 -> ORA-20001: Severidade inválida: 6. O valor deve estar entre 1 e 5.
+ORA-06512: em "RM562396.TRG_VALIDA_SEVERIDADE", line 3
+ORA-04088: erro durante a ex
+[OK] C02 TRG_VALIDA_SEVERIDADE recusa severidade em ocorrência RECEBIDA -> ORA-20002: Ocorrência RECEBIDA não tem severidade. A severidade é definida na triagem.
+ORA-06512: em "RM562396.TRG_VALIDA_SEVERIDADE", line 8
+ORA-0408
+[OK] C03 TRG_AUDIT_OCORRENCIA gravou 1 linha a mais no UPDATE de severidade (2 -> 3)
+[OK] C04 auditoria do UPDATE: operação UPDATE, severidade 3 -> 5, status TRIADA, usuário RM562396 e data 09/11/2026 21:35:51
+Ocorrência 1003 registrada com status RECEBIDA.
+[OK] C05 auditoria do INSERT da ocorrência 1003: status anterior vazio e novo RECEBIDA
+[OK] C06 auditoria do DELETE: status anterior RECEBIDA, novo vazio, e a trilha continua após a exclusão
+[OK] C07 alterar só a descrição não gera auditoria (UPDATE OF STATUS, SEVERIDADE)
+ 
+Resumo
+======
+Testes aprovados: 48
+Testes com falha: 0
+Cada grupo termina com ROLLBACK: a base continua igual à carga do 03_dados.sql.
+
+
+Procedimento PL/SQL concluído com sucesso.
+
+
+TABELA                    TOTAL
+-------------------- ----------
+OCORRENCIA                   12
+ALERTA                       12
+AUDITORIA_OCORRENCIA         36
+
+
+COLECAO     DOCUMENTOS
+----------- ----------
+IDS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ocorrencias         12 
+101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+alertas             12 
+301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+
+
+
+TRIAGENS_EMBUTIDAS LAUDOS_EMBUTIDOS HISTORICO_EMBUTIDO
+------------------ ---------------- ------------------
+                11                7                 36
+
+
+        ID CULTURA    STATUS       SEVERIDADE PRAGA_PROVAVEL                                                                                                                                         MUNICIPIO                                                                                            UF DATA_REGISTRO   
+---------- ---------- ------------ ---------- ------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------- -- ----------------
+       112 MILHO      TRIADA                4 Cigarrinha-do-milho                                                                                                                                    Chapecó                                                                                              SC 2026-09-29 08:20
+       111 TOMATE     TRIADA                4 Requeima                                                                                                                                               Vargem Grande do Sul                                                                                 SP 2026-11-04 07:55
+       106 TOMATE     EM_ANALISE            3 Traça-do-tomateiro                                                                                                                                     Caçador                                                                                              SC 2026-10-02 09:20
+       103 MILHO      TRIADA                3 Enfezamento-vermelho                                                                                                                                   Cordilheira Alta                                                                                     SC 2026-10-06 16:05
+       110 BATATA     EM_ANALISE                                                                                                                                                                     São João da Boa Vista                                                                                SP 2026-10-28 17:30
+
+
+        ID OCORRENCIA_ID NIVEL      DISTANCIA_KM L CRIADO_EM       
+---------- ------------- ---------- ------------ - ----------------
+       311           112 SUSPEITA              9 N 2026-09-29 08:22
+       301           101 CONFIRMADO            9 S 2026-09-08 07:44
+
+
+PRAGA                                                                                                                                                  MUNICIPIO                                                                                            UF MES          TOTAL MAIOR_SEVERIDADE
+------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------- -- ------- ---------- ----------------
+OCORRENCIAS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Cigarrinha-do-milho                                                                                                                                    Chapecó                                                                                              SC 2026-09          2                4 
+101, 112                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+Enfezamento-vermelho                                                                                                                                   Cordilheira Alta                                                                                     SC 2026-10          1                3 
+103                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+Lagarta-do-cartucho                                                                                                                                    Guatambu                                                                                             SC 2026-09          1                3 
+102                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+
+PRAGA                                                                                                                                                  MUNICIPIO                                                                                            UF MES          TOTAL MAIOR_SEVERIDADE
+------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------- -- ------- ---------- ----------------
+OCORRENCIAS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Pinta-preta                                                                                                                                            Vargem Grande do Sul                                                                                 SP 2026-10          1                3 
+109                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+Requeima                                                                                                                                               Caçador                                                                                              SC 2026-09          1                5 
+105                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+Requeima                                                                                                                                               Vargem Grande do Sul                                                                                 SP 2026-09          1                4 
+108                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+
+PRAGA                                                                                                                                                  MUNICIPIO                                                                                            UF MES          TOTAL MAIOR_SEVERIDADE
+------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------- -- ------- ---------- ----------------
+OCORRENCIAS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Requeima                                                                                                                                               Vargem Grande do Sul                                                                                 SP 2026-11          1                4 
+111                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+Traça-do-tomateiro                                                                                                                                     Caçador                                                                                              SC 2026-10          1                3 
+106                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+
+
+8 linhas selecionadas. 
+
